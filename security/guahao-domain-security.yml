@@ -1,0 +1,16 @@
+generated: '2026-07-19'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: guahao.com
+  https: true
+  tls_version: TLSv1.2
+  cert_expires: Dec 17 23:59:59 2026 GMT
+  hsts: false
+domains:
+- domain: guahao.com
+  dnssec: true
+  caa:
+  - idc-xy230ba230-bgp.wedoctort.com.
+  spf: true
+  dmarc: false
